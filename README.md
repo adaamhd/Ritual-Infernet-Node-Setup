@@ -33,7 +33,7 @@ _______________________________________________
 Update Packages
 The packages on your server may not be up-to-date so let’s update these first via:
 
-<p id="myText">sudo apt update && sudo apt upgrade -y </p>
+<p id="sudo apt update && sudo apt upgrade -y">This is the text to be copied.</p>
 <button onclick="copyContent()">Copy Text</button>
 
 

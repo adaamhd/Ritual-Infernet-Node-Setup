@@ -33,8 +33,8 @@ _______________________________________________
 Update Packages
 The packages on your server may not be up-to-date so let’s update these first via:
 
-<p id="textToCopy">sudo apt update && sudo apt upgrade -y.</p>
-<button id="copyBtn">Copy Text</button>
-
+function test() {
+  console.log("sudo apt update && sudo apt upgrade -y");
+}
 
 

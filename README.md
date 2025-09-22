@@ -33,8 +33,10 @@ _______________________________________________
 Update Packages
 The packages on your server may not be up-to-date so let’s update these first via:
 
+```
 function test() {
-  console.log("sudo apt update && sudo apt upgrade -y");
+  console.log("notice the blank line before this function?");
 }
+```
 
 

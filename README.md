@@ -69,12 +69,4 @@ sudo curl -L "https://github.com/docker/compose/releases/download/v2.29.2/docker
 We also need to assign the Docker Compose directory higher permissions.
 ```
 sudo chmod +x /usr/local/bin/docker-compose```
-``
-
-
-
-````
 ```
-Look! You can see my backticks.
-```
-````

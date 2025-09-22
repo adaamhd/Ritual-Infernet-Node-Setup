@@ -8,7 +8,7 @@ _______________________________________________
 **#1 Preparations & Prerequisites#**
 
 Step-By-Step Guide for Setting up Your Node
-_______________________________________________
+
 
 Requirements
 For successfully setting up and running Ritual’s Infernet Node, the following is required:
@@ -17,21 +17,24 @@ For successfully setting up and running Ritual’s Infernet Node, the following 
 
   -- EVM Wallet with ETH tokens on Base mainnet (ensure a minimum of $15-25 is in your wallet)
 
-  
+_______________________________________________
+
+
 _______________________________________________
 **#2 Infernet Node Specs#**
 
 The requirements of an Infernet Node depend to a great degree on the type of compute workflows it is running. Ritual states in their docs that memory-enhanced machines are preferred.
-_______________________________________________
+
 
 <img width="1377" height="347" alt="image" src="https://github.com/user-attachments/assets/57f0ed34-7a7e-412b-922d-1b350925148d" />
 
-  
+_______________________________________________ 
+
+
 _______________________________________________
 **#3 Istallation#**
 
 Once you’re logged into your VPS, we can install all the required tools for running a Ritual node.
-_______________________________________________
 
 **1. Update Packages**
 
@@ -89,4 +92,33 @@ chmod +x $DOCKER_CONFIG/cli-plugins/docker-compose
 -- Verify Installation
 ```
 docker compose version
+```
+
+
+**6. Add User to the Docker Group (Recommended)**
+
+If you are not working from root, please add your user to the Docker group:
+```
+sudo usermod -aG docker $USER
+```
+
+-- Reboot system to apply changes:
+```
+sudo reboot
+```
+
+-- Log back in and verify everything works fine:
+```
+docker run hello-world
+```
+_______________________________________________
+
+
+_______________________________________________
+**#4 Starter Repository#**
+
+Cloning The Starter Repository. We’ve now successfully installed all the tools we need. In the next step, you’ll clone the starter repository to your local machine. Clone locally:
+
+```
+git clone https://github.com/ritual-net/infernet-container-starter
 ```

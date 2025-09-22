@@ -3,6 +3,7 @@ Learn to Set up a Ritual Node, source from https://ritual.academy/nodes/setup/
 
 **Source : https://ritual.academy/nodes/setup/**
 
+
 _______________________________________________
 **#1 Preparations & Prerequisites**
 Step-By-Step Guide for Setting up Your Node
@@ -12,6 +13,7 @@ Requirements
 For successfully setting up and running Ritual’s Infernet Node, the following is required:
 
   -- Git, Docker, and Docker Compose (code management & deployment)
+
   -- EVM Wallet with ETH tokens on Base mainnet (ensure a minimum of $15-25 is in your wallet)
 
   
@@ -24,4 +26,5 @@ Requirements
 For successfully setting up and running Ritual’s Infernet Node, the following is required:
 
   -- Git, Docker, and Docker Compose (code management & deployment)
+
   -- EVM Wallet with ETH tokens on Base mainnet (ensure a minimum of $15-25 is in your wallet)

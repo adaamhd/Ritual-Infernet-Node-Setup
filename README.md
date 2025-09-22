@@ -3,7 +3,7 @@ Learn to Set up a Ritual Node
 
 **Source : https://ritual.academy/nodes/setup/**
 
-
+_______________________________________________
 _______________________________________________
 **#1 Preparations & Prerequisites#**
 
@@ -36,7 +36,7 @@ _______________________________________________
 
 Once you’re logged into your VPS, we can install all the required tools for running a Ritual node.
 
-**1. Update Packages**
+**A. Update Packages**
 
 The packages on your server may not be up-to-date so let’s update these first via:
 
@@ -44,7 +44,7 @@ The packages on your server may not be up-to-date so let’s update these first 
 sudo apt update && sudo apt upgrade -y
 ```
 
-**2. Install Build Tools**
+**B. Install Build Tools**
 
 Next, we are going to install the build tools needed to run a node (curl, git, jq, lz4, and build-essential):
 
@@ -52,7 +52,7 @@ Next, we are going to install the build tools needed to run a node (curl, git, j
 sudo apt -qy install curl git jq lz4 build-essential screen
 ```
 
-**3. Install Docker**
+**C. Install Docker**
 
 We can now install Docker via the following command:
 
@@ -61,7 +61,7 @@ sudo apt install docker.io
 ```
 
 
-**4. Install Docker Compose**
+**D. Install Docker Compose**
 
 Once Docker is installed, we can install Docker Compose next. Please visit github.com/docker/compose/releases for the latest version. At the time of writing this, the latest version is v2.29.2. You may have to replace the version number in the command below once a newer version is live.
 
@@ -75,7 +75,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 ```
 
 
-**5. Install Docker Compose CLI Plugin**
+**E. Install Docker Compose CLI Plugin**
 
 
 ```
@@ -95,7 +95,7 @@ docker compose version
 ```
 
 
-**6. Add User to the Docker Group (Recommended)**
+**F. Add User to the Docker Group (Recommended)**
 
 If you are not working from root, please add your user to the Docker group:
 ```

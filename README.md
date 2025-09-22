@@ -6,6 +6,7 @@ Learn to Set up a Ritual Node
 
 _______________________________________________
 **#1 Preparations & Prerequisites**
+
 Step-By-Step Guide for Setting up Your Node
 _______________________________________________
 
@@ -19,6 +20,7 @@ For successfully setting up and running Ritual’s Infernet Node, the following 
   
 _______________________________________________
 **#2 Infernet Node Specs**
+
 The requirements of an Infernet Node depend to a great degree on the type of compute workflows it is running. Ritual states in their docs that memory-enhanced machines are preferred.
 _______________________________________________
 
@@ -27,6 +29,7 @@ _______________________________________________
   
 _______________________________________________
 **#3 Istallation**
+
 Once you’re logged into your VPS, we can install all the required tools for running a Ritual node.
 _______________________________________________
 
@@ -66,3 +69,12 @@ sudo curl -L "https://github.com/docker/compose/releases/download/v2.29.2/docker
 We also need to assign the Docker Compose directory higher permissions.
 ```
 sudo chmod +x /usr/local/bin/docker-compose```
+``
+
+
+
+````
+```
+Look! You can see my backticks.
+```
+````

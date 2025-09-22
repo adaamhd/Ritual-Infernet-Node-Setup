@@ -33,6 +33,9 @@ _______________________________________________
 Update Packages
 The packages on your server may not be up-to-date so let’s update these first via:
 
-Copy to ClipboardSyntax Highlighter
-1
-sudo apt update && sudo apt upgrade -y
+<!-- The text field -->
+<input type="text" value="sudo apt update && sudo apt upgrade -y" id="myInput">
+
+<!-- The button used to copy the text -->
+<button onclick="myFunction()">Copy text</button>
+

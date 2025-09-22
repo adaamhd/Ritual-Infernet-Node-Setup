@@ -33,28 +33,8 @@ _______________________________________________
 Update Packages
 The packages on your server may not be up-to-date so let’s update these first via:
 
-<div>
-<textarea class="sudo apt update && sudo apt upgrade -y">{{ copyable }}</textarea>
-<p class="raw-link"><a href="{{ raw_link }}">Raw data</a></p>
-</div>
-
-<script>
-var ta = document.querySelector("textarea.copyable");
-var p = document.querySelector("p.raw-link");
-var button = document.createElement("button");
-button.className = "copyable-copy-button";
-button.innerHTML = "Copy to clipboard";
-button.onclick = () => {
-    ta.select();
-    document.execCommand("copy");
-    button.innerHTML = "Copied!";
-    setTimeout(() => {
-        button.innerHTML = "Copy to clipboard";
-    }, 1500);
-};
-p.appendChild(button);
-p.insertAdjacentElement("afterbegin", button);
-</script>
+<p id="textToCopy">sudo apt update && sudo apt upgrade -y.</p>
+<button id="copyBtn">Copy Text</button>
 
 
 
